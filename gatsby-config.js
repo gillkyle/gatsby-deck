@@ -1,9 +1,15 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
+  plugins: [
+    {
+      resolve: "gatsby-theme-mdx-deck",
+      options: {
+        // enable or disable gatsby-plugin-mdx
+        mdx: true,
+        // source directory
+        contentPath: "decks",
+        // base path for routes generate by this theme
+        basePath: "/",
+      },
+    },
+  ],
 }

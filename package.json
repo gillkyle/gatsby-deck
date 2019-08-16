@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "gatsby-deck",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "An mdx-deck for Gatsby slides",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -14,6 +14,8 @@
   },
   "dependencies": {
     "gatsby": "^2.13.67",
+    "gatsby-design-tokens": "^1.0.0",
+    "gatsby-theme-mdx-deck": "^3.0.9",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
